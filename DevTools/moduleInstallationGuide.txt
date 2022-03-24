@@ -1,0 +1,25 @@
+1. Python text to speech module:-
+    Installation command: pip install pyttsx3
+
+2. Python speech recognition module:
+    Installation command: pip install SpeechRecognition
+
+3. Python pywhatkit module:
+    Installation command: pip install pywhatkit
+
+4. Python wikipedia module:
+    Installation command: pip install wikipedia
+
+5. Python pywikihow module:
+    Installation command: pip install pywikihow
+
+5. Python flask module:
+    Installation command: pip install Flask
+
+6. Python pyaudio module:
+    Installation command (1): pip install pipwin
+    Installation command (2): pipwin install pyaudio
+
+7. Python playsound module:
+    Installation command: pip install playsound
+ 
