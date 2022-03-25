@@ -1,3 +1,4 @@
+import webbrowser
 import pyttsx3
 
 # Voice assistant engine
@@ -12,4 +13,10 @@ def speak(audio):
     engine.say(audio)
     engine.runAndWait()
     print(" ")
+
+# Voice assistant google search function
+def googleSearch(term):
+    speak("Searching on google")
+    Query = str(term)
+    webbrowser.open('https://google.com/search?q='+Query)
 

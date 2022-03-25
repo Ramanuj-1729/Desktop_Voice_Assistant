@@ -22,4 +22,7 @@
 
 7. Python playsound module:
     Installation command: pip install playsound
+
+8. Python bs4 module:
+    Installation command: pip install bs4
  
