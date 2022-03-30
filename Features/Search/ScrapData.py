@@ -4,7 +4,7 @@ import bs4
 from Speak import speak
 
 def scrapData(term):
-    speak("Scraping the data.")
+    speak("Extracting the data.")
     res = requests.get('https://google.com/search?q='+term)
     res.raise_for_status()
     soup = bs4.BeautifulSoup(res.text, "html.parser")
