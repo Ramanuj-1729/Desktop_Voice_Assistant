@@ -1,13 +1,15 @@
 import speech_recognition as sr
 
 # Voice assistant take command function
+
+
 def takeCommand():
     recognize = sr.Recognizer()
 
     with sr.Microphone() as source:
         print(": Listening ...")
         recognize.pause_threshold = 1
-        audio = recognize.listen(source)
+        audio = recognize.listen(source, None, 5)
 
     try:
         print(": Recognizing...")
@@ -17,4 +19,3 @@ def takeCommand():
         return ""
 
     return query.lower()
-

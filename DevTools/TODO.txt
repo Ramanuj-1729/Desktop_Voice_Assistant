@@ -1,10 +1,10 @@
 Functions in voice assistant:-
 
-1. Google search
-2. Youtube search / download video
+1. Google search ✅
+2. Youtube search ✅
 2. Send email
 7. Send whatsapp message
-5. Open Software or application
+5. Open Software or application ✅
 3. Create Folder or file*
 4. Create basic project templates*
 5. Create notes
