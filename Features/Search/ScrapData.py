@@ -16,3 +16,4 @@ def scrapData(term):
             webbrowser.open('https://google.com'+linkElements[i].get('href'))
     except:
         speak("Sorry i can't extract the data")
+

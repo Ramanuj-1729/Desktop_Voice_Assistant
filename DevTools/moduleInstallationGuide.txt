@@ -25,4 +25,10 @@
 
 8. Python bs4 module:
     Installation command: pip install bs4
+
+9. Python pyinstaller module:
+    Installation command: pip install pyinstaller
+
+10. Python openpyxl module:
+    Installation command: pip install openpyxl
  

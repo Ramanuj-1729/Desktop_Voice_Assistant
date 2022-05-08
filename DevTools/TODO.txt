@@ -9,11 +9,8 @@ Functions in voice assistant:-
 4. Create basic project templates*
 5. Create notes
 6. Send email
-7. Send whatsapp message
-8. Alarm / Timers / Reminders
-9. Search location*
-10. Face authentication system to use voice assistant*
-11. Find lost phones
-12. Get news, weather and traffic
-
+7. Alarm / Timers / Reminders
+8. Search location*
+9. Face authentication system to use voice assistant*
+10. Get news, weather and traffic
 
