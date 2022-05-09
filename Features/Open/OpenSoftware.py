@@ -1,21 +1,12 @@
 import os
-import pyttsx3
+from Functions.Speak import speak
+from Functions.TakeCommand import takeCommand
 
-# Voice assistant engine
-engine = pyttsx3.init('sapi5')
-voices = engine.getProperty('voices')
-engine.setProperty('voices', voices[0].id)
-
-# Voice assistant speak Function
-def speak(audio):
-    print(" ")
-    print(f": {audio}")
-    engine.say(audio)
-    engine.runAndWait()
-    print(" ")
-
-def openSoftware(term):
+def openSoftware():
     try:
+        speak("Tell me the name of the software")
+        term = takeCommand()
+
         if term == "chrome":
             os.startfile("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe")
             speak("Opening chrome")

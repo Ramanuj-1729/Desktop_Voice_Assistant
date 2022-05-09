@@ -34,4 +34,4 @@ def addEmail():
         speak("Data added successfully")
 
     except:
-        speak("Sorry, I am unable to add the data")
+        speak("Sir please close the database file, I am unable to add the data")

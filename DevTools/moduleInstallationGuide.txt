@@ -31,4 +31,7 @@
 
 10. Python openpyxl module:
     Installation command: pip install openpyxl
+
+11. Python secure-smtplib module:
+    Installation command: pip install secure-smtplib
  

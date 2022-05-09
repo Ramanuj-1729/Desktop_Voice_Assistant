@@ -1,10 +1,11 @@
-from TakeCommand import takeCommand
+from Functions.TakeCommand import takeCommand
 import Features.Search.YoutubeSearch as ys
 import Features.Search.GoogleSearch as gs
 import Features.Search.ScrapData as sd
 import Features.Search.HowTo as ht
 import Features.Search.SearchWiki as sw
 import Features.Open.OpenSoftware as os
+import Features.Email.SendEmail as se
 
 #Task execution function
 def taskExe():
@@ -14,28 +15,30 @@ def taskExe():
 
         if 'google search' in query:
             query = Query.replace("google search ","")
+            print(f": {query}")
             gs.googleSearch(query)
 
         elif 'youtube search' in query:
-            query = Query.replace("youtube search ","")
-            ys.youTubeSearch(query)
+            print(f": {query}")
+            ys.youTubeSearch()
         
         elif 'extract data' in query:
-            query = Query.replace("extract data ","")
-            sd.scrapData(query)
+            print(f": {query}")
+            sd.scrapData()
         
         elif 'how to' in query:
+            print(f": {query}")
             ht.howTo(Query)
 
         elif 'wikipedia' in query:
-            query = Query.replace("wikipedia ","")
-            sw.searchWiki(query)
+            print(f": {query}")
+            sw.searchWiki()
 
-        elif 'open' in query:
-            query = Query.replace("open ", "")
-            print(query)
-            os.openSoftware(query)
+        elif 'open software' in query:
+            print(f": {query}")
+            os.openSoftware()
 
-
-
+        elif 'send email' in query:
+            print(f": {query}")
+            se.get_email_info()
 
