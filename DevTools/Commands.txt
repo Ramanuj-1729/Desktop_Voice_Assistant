@@ -1,0 +1,9 @@
+1. google search: simple google search
+2. youtube search: search any video on youtube
+3. extract data: extract data from google (Open 5 - 10 websites for you)
+4. how to: Search 'how to' type query on google
+5. wikipedia: Search any topic on wikipedia
+6. open software: open software which is stored in our database
+7. send email: Send email and add receiver
+8. take screenshot: take screenshot for current screenshot
+9. 

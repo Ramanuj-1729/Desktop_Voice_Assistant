@@ -6,6 +6,7 @@ import Features.Search.HowTo as ht
 import Features.Search.SearchWiki as sw
 import Features.Open.OpenSoftware as os
 import Features.Email.SendEmail as se
+import Features.TakeScreenShot.TakeScreenShot as tk
 
 #Task execution function
 def taskExe():
@@ -41,4 +42,9 @@ def taskExe():
         elif 'send email' in query:
             print(f": {query}")
             se.get_email_info()
+
+        elif 'take screenshot' in query:
+            print(f": {query}")
+            tk.takeScreenShot()
+
 

@@ -34,4 +34,12 @@
 
 11. Python secure-smtplib module:
     Installation command: pip install secure-smtplib
+
+12. Python pyautogui module:
+    Installation command: pip install pyautogui
+
+13. Python opencv-python module:
+    Installation command: pip install opencv-python
+
+
  

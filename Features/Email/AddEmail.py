@@ -1,19 +1,6 @@
 from openpyxl import load_workbook
 import os
-import pyttsx3
-
-# Voice assistant engine
-engine = pyttsx3.init('sapi5')
-voices = engine.getProperty('voices')
-engine.setProperty('voices', voices[0].id)
-
-# Voice assistant speak Function
-def speak(audio):
-    print(" ")
-    print(f": {audio}")
-    engine.say(audio)
-    engine.runAndWait()
-    print(" ")
+from Functions.Speak import speak
 
 
 def addEmail():
@@ -24,7 +11,8 @@ def addEmail():
         emailId = input("Enter email id: ")
 
         data = [userName, emailId]
-        file_name = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..', 'Database', 'EmailDB', 'emailDB.xlsx'))
+        file_name = os.path.realpath(os.path.join(os.path.dirname(
+            __file__), '..', '..', 'Database', 'EmailDB', 'emailDB.xlsx'))
         wb = load_workbook(file_name)
         page = wb.active
 
