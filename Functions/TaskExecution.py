@@ -1,3 +1,4 @@
+from Functions.Speak import speak
 from Functions.TakeCommand import takeCommand
 import Features.Search.YoutubeSearch as ys
 import Features.Search.GoogleSearch as gs
@@ -46,5 +47,9 @@ def taskExe():
         elif 'take screenshot' in query:
             print(f": {query}")
             tk.takeScreenShot()
+        
+        elif 'exit' in query:
+            speak("Good bye")
+            exit()
 
 

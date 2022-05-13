@@ -17,3 +17,4 @@ def takeScreenShot():
     desktopLocation = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop', filename+'.png')
 
     cv2.imwrite(desktopLocation, image)
+    speak("I'm sending this screenshot to Desktop")
