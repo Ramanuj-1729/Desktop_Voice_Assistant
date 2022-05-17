@@ -6,9 +6,9 @@ from Functions.Speak import speak
 def addEmail():
     try:
         speak("Enter receiver name: ")
-        userName = input("Enter user name: ")
-        speak("Enter receiver mail id: ")
-        emailId = input("Enter email id: ")
+        userName = input("Enter receiver name: ")
+        speak("Enter receiver email id: ")
+        emailId = input("Enter receiver email id: ")
 
         data = [userName, emailId]
         file_name = os.path.realpath(os.path.join(os.path.dirname(

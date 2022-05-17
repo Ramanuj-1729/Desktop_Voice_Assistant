@@ -6,7 +6,7 @@ from Functions.TakeCommand import takeCommand
 
 
 def scrapData():
-    try:
+    # try:
         speak("Tell me, what type of data you want to extract")
         term = takeCommand()
         res = requests.get('https://google.com/search?q='+term)
@@ -17,6 +17,6 @@ def scrapData():
         linkToOpen = min(5, len(linkElements))
         for i in range(linkToOpen):
             webbrowser.open('https://google.com'+linkElements[i].get('href'))
-    except:
-        speak("Sorry, I am unable to extract the data")
+    # except:
+        # speak("Sorry, I am unable to extract the data")
 

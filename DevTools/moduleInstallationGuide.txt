@@ -13,33 +13,34 @@
 5. Python pywikihow module:
     Installation command: pip install pywikihow
 
-5. Python flask module:
+6. Python flask module:
     Installation command: pip install Flask
 
-6. Python pyaudio module:
+7. Python pyaudio module:
     Installation command (1): pip install pipwin
     Installation command (2): pipwin install pyaudio
 
-7. Python playsound module:
+8. Python playsound module:
     Installation command: pip install playsound
 
-8. Python bs4 module:
+9. Python bs4 module:
     Installation command: pip install bs4
 
-9. Python pyinstaller module:
+10. Python pyinstaller module:
     Installation command: pip install pyinstaller
 
-10. Python openpyxl module:
+11. Python openpyxl module:
     Installation command: pip install openpyxl
 
-11. Python secure-smtplib module:
+12. Python secure-smtplib module:
     Installation command: pip install secure-smtplib
 
-12. Python pyautogui module:
+13. Python pyautogui module:
     Installation command: pip install pyautogui
 
-13. Python opencv-python module:
+14. Python opencv-python module:
     Installation command: pip install opencv-python
 
-
+15. Python keyboard module:
+    Installation command: pip install keyboard
  

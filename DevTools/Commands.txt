@@ -6,4 +6,7 @@
 6. open software: open software which is stored in our database
 7. send email: Send email and add receiver
 8. take screenshot: take screenshot for current screenshot
-9. 
+9. send message: send whatsapp message to any person in your contact list
+10. voice call: voice call on whatsapp to any person in your contact list
+11. video call: video call on whatsapp to any person in your contact list
+12. exit: exit desktop voice assistant

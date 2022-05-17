@@ -8,6 +8,9 @@ import Features.Search.SearchWiki as sw
 import Features.Open.OpenSoftware as os
 import Features.Email.SendEmail as se
 import Features.TakeScreenShot.TakeScreenShot as tk
+import Features.Whatsapp.Message as m
+import Features.Whatsapp.VoiceCall as vcc
+import Features.Whatsapp.VideoCall as vc
 
 #Task execution function
 def taskExe():
@@ -47,9 +50,23 @@ def taskExe():
         elif 'take screenshot' in query:
             print(f": {query}")
             tk.takeScreenShot()
+
+        elif 'send message' in query:
+            print(f": {query}")
+            m.message()
+
+        elif 'voice call' in query:
+            print(f": {query}")
+            vcc.voiceCall()
+
+        elif 'video call' in query:
+            print(f": {query}")
+            vc.videoCall()
         
         elif 'exit' in query:
             speak("Good bye")
             exit()
+            
+        
 
 

@@ -2,15 +2,17 @@ Functions in voice assistant:-
 
 1. Google search ✅
 2. Youtube search ✅
-2. Send email
-7. Send whatsapp message
-5. Open Software or application ✅
-3. Create Folder or file*
-4. Create basic project templates*
-5. Create notes
-7. Alarm / Timers / Reminders
-8. Search location*
-9. Face authentication system to use voice assistant*
-10. Get news, weather and traffic
-11. Take screenshot
-
+3. Scrap Data ✅
+4. Search on wikipedia ✅
+5. Send email ✅
+6. Send whatsapp message ✅
+7. Open Software or application ✅
+8. Create Folder or file*
+9. Create basic project templates*
+10. Create notes*
+11. Search location*
+12. Face authentication system to use voice assistant*
+13. Get news, weather and traffic
+14. Take screenshot* ✅
+15. Copy / Paste*
+16. miximize / minimize window*
