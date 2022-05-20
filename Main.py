@@ -1,4 +1,5 @@
 import Functions.TaskExecution as TaskExecution
 
-TaskExecution.taskExe()
+def main():
+    TaskExecution.taskExe()
 
