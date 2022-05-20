@@ -11,9 +11,11 @@ import Features.TakeScreenShot.TakeScreenShot as tk
 import Features.Whatsapp.Message as m
 import Features.Whatsapp.VoiceCall as vcc
 import Features.Whatsapp.VideoCall as vc
+import Features.Greeting.Greeting as greet
 
 #Task execution function
 def taskExe():
+    greet.greeting()
     while True:
         query = takeCommand()
         Query = query.replace("david ","")
